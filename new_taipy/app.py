@@ -4,7 +4,7 @@ from openai import OpenAI
 st.title("🤖 Man in Chatbot")
 
 # Create client using your OpenAI API key
-client = OpenAI(api_key="AIzaSyA3uAgSmSEmz6eR9S7pBYMzVFOuc6aeGZg")
+client = OpenAI(api_key="your api key")
 
 # Store messages in session (memory)
 if "messages" not in st.session_state:
